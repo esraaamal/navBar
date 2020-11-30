@@ -7,7 +7,7 @@
 header{
     background-color:deepskyblue;
     height: 98px;
-    line-height: 100px;
+    line-height: 98px;
     
 }
 .logo img{
@@ -37,4 +37,42 @@ header nav ul li a:hover{
     text-decoration: none;
     font-size: 18px;
     color: whitesmoke;
+}
+.slide1{
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.7)),url(../images/pexels-photo.jpeg);
+    background-size: 100% 100%;
+}
+.slider,.slider ul,.slider ul li{
+height: 710px;
+width: 100%;
+color: white;
+text-align: center;
+}
+
+.slider h2{
+   font-weight: bold;
+   margin-top: 220px;
+}
+.slide1 span{
+    color: orange;
+}
+.slider a {
+padding: 10px 40px;
+margin-right: 10px;
+
+}
+.slider a.btn-half{
+background-color: deepskyblue;
+color: whitesmoke;
+}
+.slider a.btn-full{
+    background-color: orange;
+    color: whitesmoke;
+}
+/* //////////////////////// */
+.slide2{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//images/pexels-photo-2627063.jpeg) ;
+}
+.slide3{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//images/pexels-photo-1271380.jpeg);
 }
