@@ -3,11 +3,17 @@
     padding: 0;
 
 }
+body{
+    height: 3000px;
+}
 
 header{
-    background-color:deepskyblue;
+   
     height: 98px;
     line-height: 98px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
     
 }
 .logo img{
@@ -41,6 +47,7 @@ header nav ul li a:hover{
 .slide1{
     background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.7)),url(../images/pexels-photo.jpeg);
     background-size: 100% 100%;
+    
 }
 .slider,.slider ul,.slider ul li{
 height: 710px;
@@ -51,28 +58,47 @@ text-align: center;
 
 .slider h2{
    font-weight: bold;
-   margin-top: 220px;
+   margin-top: 250px;
+
 }
-.slide1 span{
+.slider span{
     color: orange;
 }
 .slider a {
-padding: 10px 40px;
+padding: 10px 50px;
 margin-right: 10px;
+
 
 }
 .slider a.btn-half{
 background-color: deepskyblue;
 color: whitesmoke;
+transition: 0.3s ease-out;
+}
+.slider a.btn-half:hover{
+    background-color: dodgerblue;
+
+
 }
 .slider a.btn-full{
     background-color: orange;
     color: whitesmoke;
+    transition: 0.3s ease-out;
+}
+.slider a.btn-full:hover{
+  background-color: #e67e22;
 }
 /* //////////////////////// */
 .slide2{
     background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//images/pexels-photo-2627063.jpeg) ;
+background-size: 100% 100%;
 }
 .slide3{
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//images/pexels-photo-1271380.jpeg);
+background-size: 100% 100%;
+}
+
+.slider i{
+    font-size: 35px;
+    margin-right: 10px;
 }
